@@ -54,6 +54,7 @@
 				423FB9482A615953001C9EC5 /* Config */,
 				423FB9492A61595B001C9EC5 /* Core */,
 				423FB94A2A615961001C9EC5 /* Features */,
+				423FB9562A615D67001C9EC5 /* ExampleCode */,
 				423FB9402A615880001C9EC5 /* Preview Content */,
 				423FB93C2A61587E001C9EC5 /* ContentView.swift */,
 			);
@@ -91,6 +92,7 @@
 		423FB94A2A615961001C9EC5 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				423FB9522A615C4A001C9EC5 /* Feature1 */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -145,6 +147,44 @@
 			children = (
 			);
 			path = Presentations;
+			sourceTree = "<group>";
+		};
+		423FB9522A615C4A001C9EC5 /* Feature1 */ = {
+			isa = PBXGroup;
+			children = (
+				423FB9552A615C95001C9EC5 /* Presentations */,
+				423FB9542A615C8F001C9EC5 /* ViewModels */,
+				423FB9532A615C89001C9EC5 /* Models */,
+			);
+			path = Feature1;
+			sourceTree = "<group>";
+		};
+		423FB9532A615C89001C9EC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		423FB9542A615C8F001C9EC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		423FB9552A615C95001C9EC5 /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		423FB9562A615D67001C9EC5 /* ExampleCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExampleCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
