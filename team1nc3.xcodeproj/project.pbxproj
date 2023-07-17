@@ -16,6 +16,8 @@
 		423FB99C2A652B66001C9EC5 /* Feature1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423FB99B2A652B66001C9EC5 /* Feature1ViewModel.swift */; };
 		423FB99E2A652B9D001C9EC5 /* Feature1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423FB99D2A652B9D001C9EC5 /* Feature1Model.swift */; };
 		423FB9A02A652BAB001C9EC5 /* Feature1RepositorySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423FB99F2A652BAB001C9EC5 /* Feature1RepositorySample.swift */; };
+		423FB9A92A6534F5001C9EC5 /* AccountPageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423FB9A82A6534F5001C9EC5 /* AccountPageViews.swift */; };
+		423FB9AB2A65BBE2001C9EC5 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423FB9AA2A65BBE2001C9EC5 /* Color+Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		423FB99B2A652B66001C9EC5 /* Feature1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ViewModel.swift; sourceTree = "<group>"; };
 		423FB99D2A652B9D001C9EC5 /* Feature1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1Model.swift; sourceTree = "<group>"; };
 		423FB99F2A652BAB001C9EC5 /* Feature1RepositorySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1RepositorySample.swift; sourceTree = "<group>"; };
+		423FB9A82A6534F5001C9EC5 /* AccountPageViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageViews.swift; sourceTree = "<group>"; };
+		423FB9AA2A65BBE2001C9EC5 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		423FB94A2A615961001C9EC5 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				423FB9A12A65328F001C9EC5 /* AccountPage */,
 				423FB9522A615C4A001C9EC5 /* Feature1 */,
 			);
 			path = Features;
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				423FB9512A615A12001C9EC5 /* Presentations */,
+				423FB9AA2A65BBE2001C9EC5 /* Color+Theme.swift */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -214,6 +220,54 @@
 			isa = PBXGroup;
 			children = (
 				423FB9972A652ABD001C9EC5 /* Feature1View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		423FB9A12A65328F001C9EC5 /* AccountPage */ = {
+			isa = PBXGroup;
+			children = (
+				423FB9A42A65339A001C9EC5 /* Models */,
+				423FB9A32A653395001C9EC5 /* ViewModels */,
+				423FB9A22A653390001C9EC5 /* Presenters */,
+			);
+			path = AccountPage;
+			sourceTree = "<group>";
+		};
+		423FB9A22A653390001C9EC5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				423FB9A72A65349E001C9EC5 /* Views */,
+				423FB9A52A65348B001C9EC5 /* Components */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		423FB9A32A653395001C9EC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		423FB9A42A65339A001C9EC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		423FB9A52A65348B001C9EC5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		423FB9A72A65349E001C9EC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				423FB9A82A6534F5001C9EC5 /* AccountPageViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,7 +343,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				423FB99A2A652AE1001C9EC5 /* Feature1Component1.swift in Sources */,
+				423FB9A92A6534F5001C9EC5 /* AccountPageViews.swift in Sources */,
 				423FB99C2A652B66001C9EC5 /* Feature1ViewModel.swift in Sources */,
+				423FB9AB2A65BBE2001C9EC5 /* Color+Theme.swift in Sources */,
 				423FB93D2A61587E001C9EC5 /* ContentView.swift in Sources */,
 				423FB9A02A652BAB001C9EC5 /* Feature1RepositorySample.swift in Sources */,
 				423FB9982A652ABD001C9EC5 /* Feature1View.swift in Sources */,
