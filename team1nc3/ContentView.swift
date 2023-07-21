@@ -11,11 +11,11 @@ struct ContentView: View {
     var body: some View {
         TabView {
             HomeView()
-                .tabItem{
+                .tabItem {
                     Label("Home", systemImage: "house")
                 }
             TicketView()
-                .tabItem{
+                .tabItem {
                     Label("Ticket", systemImage: "ticket")
                 }
             SettingView()
@@ -23,12 +23,6 @@ struct ContentView: View {
                     Label("Settings", systemImage: "gear")
                 }
         }
-    }
-}
-
-struct HomeView: View {
-    var body: some View {
-        Text("Home View")
     }
 }
 
